@@ -45,3 +45,5 @@ and displays everything in an interactive dashboard.
 ### 1. Start InfluxDB
 ```bash
 influxdb3 serve --node-id default --object-store file --data-dir /opt/homebrew/var/lib/influxdb
+
+/opt/homebrew/opt/influxdb/bin/influxdb3 serve --node-id local --object-store file --data-dir ~/.influxdb3
